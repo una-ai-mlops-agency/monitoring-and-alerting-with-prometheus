@@ -9,6 +9,15 @@ networks:
   back-tier:
 
 services:
+  webapp:
+    build: .
+    container_name: webapp
+    expose:
+      - 5000
+    ports:
+      - 5000:5000
+    volumes:
+      - ./:/application
 
   prometheus:
     image: prom/prometheus:v2.15.2
