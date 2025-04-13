@@ -1,6 +1,6 @@
 # Monitoring-and-Alerting-with-Prometheus
 
-## Usage
+## Setup
 Clone this repository
 
 Cd to the cloned repository and run:
@@ -19,3 +19,6 @@ username - admin
 password - foobar
 ```
 Webapp is now accessible via http://0.0.0.0:5000
+
+## Usage 
+Follow the workshop [here](https://github.com/una-ai-mlops-agency/monitoring-and-alerting-with-prometheus/tree/main/steps)
